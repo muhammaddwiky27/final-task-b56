@@ -1,0 +1,93 @@
+<html>
+  <head>
+    <title>Provinsi - Detail</title>
+    <link rel="stylesheet" href="/assets/css/blog.css" />
+    <link rel="stylesheet" href="/assets/css/index.css" />
+    <link rel="stylesheet" href="/assets/css/navbar.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  </head>
+
+  <body>
+
+   <div class="collapse navbar-collapse hovers" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item fs-5 ms-2">
+                        <a class="nav-link hovers hover active" href="blog" style="margin-left: 30px; width: 20px">
+                            <i class="fa-solid fa-arrow-left" style="margin-top: 30px"></i> Back
+                        </a>
+                    </li>
+              </div>
+
+    <div class="blog-detail">
+      <div class="blog-detail-container">
+        <h1>{{data.title}}</h1>
+        <div class="author">{{data.created_at}} | {{data.author}}</div>
+        <img src="/" alt="detail" />
+        <p>
+          {{data.content}}
+        </p>
+      </div>
+    </div>
+
+    <script src="/assets/js/nav.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+
+{{!-- <html>
+   <head>
+      <title>My Project - detail</title>
+      <link rel="stylesheet" href="/assets/css/blog.css" />
+      <link rel="stylesheet" href="/assets/css/index.css" />
+      <link rel="stylesheet" href="/assets/css/navbar.css" />
+   </head>
+
+   <body>
+      <nav class="navbar">
+         <ul class="navbar-ul">
+            <div class="navbar-left">
+               <li>
+                  <img src="/assets/img/instagram.png" class="navbar-logo" />
+               </li>
+               <li>
+                  <a href="/" class="navbar-link"> Home </a>
+               </li>
+               <li>
+                  <a href="/blog" class="navbar-link active"> My Project </a>
+               </li>
+               <li>
+                  <a href="/testimonial" class="navbar-link"> Testimonial </a>
+               </li>
+            </div>
+            <div class="navbar-right">
+               <li>
+                  <a href="/contact" class="navbar-contact-btn"> Contact </a>
+               </li>
+               <button id="hamburger-button" onclick="toggleHamburger()">
+                  <i class="fa-solid fa-bars fa-2x"></i>
+               </button>
+            </div>
+         </ul>
+      </nav>
+      <div class="hamburger-container hide">
+         <a href="/" class="hamburger-nav-link"> Home </a>
+         <a href="blog" class="hamburger-nav-link hamburger-active"> My Project </a>
+         <a href="testimonial" class="hamburger-nav-link"> Testimonial </a>
+         <a href="contact" class="hamburger-nav-link"> Contact </a>
+      </div>
+
+      <div class="blog-detail">
+         <div class="blog-detail-container">
+            <h1>{{data.title}}</h1>
+            <div class="author">{{data.created_at}} | {{data.author}}</div>
+            <img src="/assets/img/gambar1.png" alt="detail" />
+            <p>
+               {{data.content}}
+            </p>
+         </div>
+      </div>
+
+      <script src="/assets/js/nav.js"></script>
+   </body>
+</html> --}}

@@ -1,0 +1,106 @@
+.container {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.testimonial {
+    width: 25%;
+    margin: 0px 15px 30px 15px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(10, 10, 10, 10.10);
+}
+
+.testimonial img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.quote {
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.author {
+    font-weight: bold;
+    text-align: right;
+}
+
+.profile-testimonial {
+    width: 100%;
+}
+
+
+.container-rating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-rating {
+    display: flex;
+}
+
+.container-rating i {
+    animation-name: example;
+    animation-duration: 30s;
+}
+
+@keyframes example {
+    0%   {color: gray;}
+    05%  {color: aqua;}
+    10%  {color: grey;}
+    15%  {color: aqua;}
+    20%  {color: gray;}
+    25%  {color: aqua;}
+    30%  {color: grey;}
+    35%  {color: aqua;}
+    40%  {color: gray;}
+    45%  {color: aqua;}
+    50%  {color: gray;}
+    55%  {color: aqua;}
+    60%  {color: gray;}
+    65%  {color: aqua;}
+    70%  {color: gray;}
+    75%  {color: aqua;}
+    80%  {color: gray;}
+    85%  {color: aqua;}
+    90%  {color: gray;}
+    95%  {color: aqua;}
+    100% {color: gray;}
+  }
+
+.rating-btn {
+    margin: 20px;
+    padding: 0px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+    .testimonial {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .testimonial {
+        width: 100%;
+    }
+}

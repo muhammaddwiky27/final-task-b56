@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.cv-container {
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 0 50px gray;
+    border-radius: 10px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.header img {
+    width: 150px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.header h1 {
+    font-size: 26px;
+    margin: 0;
+    color: #333;
+}
+
+.header p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.summary {
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.experience, .education, .organization {
+    margin-bottom: 20px;
+}
+
+.experience-item, .education-item, .organization-item {
+    margin-bottom: 15px;
+}
+
+.experience-item h4, .education-item h4, .organization-item h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.experience-item p, .education-item p, .organization-item p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.date-location {
+    font-size: 14px;
+    color: #777;
+}

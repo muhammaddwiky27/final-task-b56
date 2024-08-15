@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+.images .name {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 320px 0 0 0;
+    align-items: center;
+    margin-left: 210px;
+
+}
+
+.images .role {
+    font-size: 17px;
+    margin: 10px 0 0 0;
+    align-items: center;
+    margin-left: 265px;
+}
+
+/* .description {
+    color: black;
+    width: 37%;
+    height: 34%;
+    position: absolute;
+    bottom: 0;
+    right: 2px;
+    font-size: 15px;
+    margin-bottom: 40px;
+} */
+
+p {
+    font-size: 20px;
+    color: black;    
+}
+
+.detail{
+    margin-right: 30%;
+    margin-bottom: 15%;
+}
+
+.detail h1 {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+span {
+    color: rgb(161, 154, 168);
+}
+
+.detail p {
+    color: black;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.detail a {
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #001f3f;
+    display: inline-block;
+    margin: 10px 0;
+    border: none;
+}
+
+.contact-btn {
+    background-color: #001f3f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.download-cv i {
+    margin-left: 5px;
+}
+
+.images {
+    width: 46%;
+    height: 40%;
+    position: absolute;
+    bottom: 0;
+    right: 70px;
+    margin-bottom: 280px;
+    
+}
+
+.images img {
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(10, 10, 10, 10.10);
+}
+
+p.country {
+    font-weight: 900;
+}
+
+.card-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    padding: 10px;
+    align-items: end;
+    grid-template-columns: repeat(2, 1);
+    column-gap: 30px;
+    width: 50%;
+
+}
+
+.card {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    padding: 10px;
+    align-items: end;
+    grid-template-columns: repeat(2, 1);
+    column-gap: 30px;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+
+  

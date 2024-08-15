@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Responsiveness */
+@media (max-width: 500px) {
+  .container {
+      flex-direction: column;
+      padding: 20px;
+  }
+
+  .intro-section {
+      padding-right: 0;
+      margin-bottom: 20px;
+  }
+
+  .profile-section img {
+      width: 200px;
+      margin: 0 auto;
+  }
+}
+
+
+
+body {
+  margin:0;
+  padding: 0;
+  background-color: white;
+}
+
+.skill {
+  display: flex;
+  width: 800px; 
+  border: 1px white; 
+  color: black; 
+  margin: 50px auto;
+  padding: 50px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 0 20px gray;
+}
+
+.image {
+  margin-left: 25px;
+}
+
+.text {
+  margin-right: 25px;
+}
+
+form {
+  width: 450px;
+  margin: 50px auto;
+  padding: 10px;
+}
+
+form div {
+  margin-top: 15px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input,
+select,
+textarea {
+  background-color: rgb(240, 237, 237);
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+section {
+  display: flex;
+}
+
+#barsmenu {
+  display: none;
+}
+
+.card-container {
+  margin-right: 25px;
+  width: 150%;
+}
+
+@media only screen  and (max-width: 500px) {
+  .card-container {
+      width: 50%;
+  }
+  .text {
+      flex: 100%;
+      display: flex;
+      justify-content: center;
+  }
+  .right {
+      margin-left: 0;
+  }
+  section {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .text {
+      flex-direction: column;
+      
+      width: 600px; 
+      border: 1px white; 
+      color: black; 
+      margin: 50px auto;
+      padding: 50px 50px 600px 50px;
+      border-radius: 10px 10px 10px 10px;
+      box-shadow: 0 0 50px gray;
+  }
+
+  .card-container {
+      margin-top: -600px;
+  }
+
+  .skill {
+      margin-left: -60px;
+  }
+
+  .column {
+      flex-direction: column;
+      width: 100%;
+  }
+
+  
+
+  .item-collapse {
+      display: none;
+  }
+
+  .nav-right {
+      display: none;
+  }
+
+  #barsMenu {
+      display: block;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+  .text {
+      flex-direction: column;
+      width: 400px; 
+      border: 1px white; 
+      color: black; 
+      margin: 50px auto;
+      padding: 50px 50px 600px 50px;
+      border-radius: 10px 10px 10px 10px;
+      box-shadow: 0 0 50px gray;
+  }
+
+  .card-container {
+      margin-top: -600px;
+  }
+
+  .skill {
+      margin-left: -180px;
+  }
+
+  .column {
+      flex-direction: column;
+      width: 100%;
+  }
+
+  section {
+      flex-direction: column;
+  }
+
+  .item-collapse {
+      display: none;
+  }
+
+  .nav-right {
+      display: none;
+  }
+
+  #barsMenu {
+      display: block;
+  }
+  
+  .blog-list .blog-list-item {
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 20px;
+      border: 1px solid black;
+      border-radius: 8px;
+  }
+
+  .blog-content {
+      display: flex;
+  }
+}
